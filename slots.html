@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REQUEUE - Slots</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slots-container">
+        <h1>Available Slots</h1>
+        <p>City: <span id="city-name"></span></p>
+        <p>Service: <span id="service-name"></span></p>
+
+        <h2>Select a Slot:</h2>
+
+        <!-- Date Picker -->
+        <label for="slot-date">Choose a Date:</label>
+        <input type="date" id="slot-date" min="" required>
+
+        <!-- Time Slot Selection -->
+        <h3>Available Time Slots</h3>
+        <select id="time-slot" required>
+            <!-- Dynamically filled time slots will appear here -->
+        </select>
+
+        <button id="book-slot">Book Slot</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
